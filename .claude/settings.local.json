@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git clone *)",
+      "Bash(git -C /Users/nikitamizin/prezamaker remote -v)",
+      "Bash(git init *)",
+      "Bash(git remote *)",
+      "Bash(git fetch *)",
+      "Bash(git reset *)",
+      "Bash(git -C /Users/nikitamizin/prezamaker fetch origin)",
+      "Bash(git -C /Users/nikitamizin/prezamaker branch -r)",
+      "Bash(npm create *)",
+      "Bash(npx create-vite@latest . --template react)",
+      "Read(//private/tmp/**)",
+      "Bash(npx create-vite@latest prezamaker-tmp --template react)",
+      "Read(//tmp/**)",
+      "Bash(cp /tmp/prezamaker-tmp/index.html /Users/nikitamizin/prezamaker/)",
+      "Bash(cp /tmp/prezamaker-tmp/package.json /Users/nikitamizin/prezamaker/)",
+      "Bash(cp /tmp/prezamaker-tmp/vite.config.js /Users/nikitamizin/prezamaker/)",
+      "Bash(cp -r /tmp/prezamaker-tmp/public /Users/nikitamizin/prezamaker/)",
+      "Bash(cp -r /tmp/prezamaker-tmp/src /Users/nikitamizin/prezamaker/)",
+      "Bash(npm install *)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
+    ]
+  }
+}
